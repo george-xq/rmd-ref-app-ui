@@ -7,13 +7,17 @@ var config = {
    * If you have run the installRefApp.py script, then you can copy values from the manifest.yml into this file for local development.
    * This uaa helper object simulates NGINX uaa integration using Grunt allowing secure cloudfoundry service integration in local development without deploying your application to cloudfoundry.
    * Please update the following uaa configuration for your solution
-   */
-    uaa: {
-
-        clientId: '3',
+           clientId: '3',
         clientSecret: '2JHJEDIHXvgx1j6DLxstEzhjpdQjDXphI5GulgYa',
         serverUrl: 'http://uaa011-avjrrv0j.neuseer.cn/',
         redirect_uri: 'http://whrmdui012345.neuseer.cn/callback',
+   */
+    uaa: {
+
+        clientId: '4',
+        clientSecret: '8x6FcN9xuY022uBpjBnbYWArAqCEmXf7zftzEpXo',
+        serverUrl: 'http://uaa011-avjrrv0j.neuseer.cn/',
+        redirect_uri: 'http://whrmdui01-test.neuseer.cn/callback',
         defaultClientRoute: '/about'
 
     },
