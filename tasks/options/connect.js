@@ -9,7 +9,7 @@ var config = {
    * Please update the following uaa configuration for your solution
            clientId: '3',
         clientSecret: '2JHJEDIHXvgx1j6DLxstEzhjpdQjDXphI5GulgYa',
-        serverUrl: 'http://uaa011-avjrrv0j.neuseer.cn/',
+        serverUrl: 'http://uaa011-avjrrv0j.neuseer.cn/', uaa011-avjrrv0j.neuseer.cn
         redirect_uri: 'http://whrmdui012345.neuseer.cn/callback',
    */
     uaa: {
